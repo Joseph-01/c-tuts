@@ -1,2 +1,2 @@
 # c-tuts
-more tutorials
+Relearning C programming language
