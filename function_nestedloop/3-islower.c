@@ -16,8 +16,3 @@ int _islower(int c)
   return (0);
 }
 
-int main()
-{
-  _islower('a');
-  return (0);
-}

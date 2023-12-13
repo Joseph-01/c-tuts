@@ -1,14 +1,10 @@
 #include <stdio.h>
+#include <unistd.h>
+#include "header.h"
 
-void ptchar();
-
-int main()
+int _putchar(char c)
 {
-  ptchar();
-  return (0);
+  return(write(1, &c, 1));
 }
 
-void ptchar()
-{
-  printf("_putchar\n");
-}
+
