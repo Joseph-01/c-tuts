@@ -1,15 +1,20 @@
 #include <stdio.h>
 #include "header.h"
 #include "0_putchar.c"
-#include "9-time_table.c"
+#include "100-print_times_table.c"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    times_table();
-    return (0);
+* main - check the code.
+*
+* Return: Always 0.
+*/
+int main(void) {
+  print_times_table(3);
+  _putchar('\n');
+  print_times_table(5);
+  _putchar('\n');
+  print_times_table(98);
+  _putchar('\n');
+  print_times_table(12);
+  return (0);
 }
